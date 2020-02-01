@@ -1,0 +1,89 @@
+.bio {
+    color: white;
+    z-index: 5;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    top : 20%;
+}
+.bio-items {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.about {
+    width: 100%;
+    margin: 20px;
+    background-color: black;
+    border-radius: 50px;
+}
+.about p {
+  width: 50%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.skills {
+    width: 20%;
+    height: 300px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.skill-points {
+    overflow: hidden;
+    height: 170px;
+    position: relative;
+}
+.skill-scroller {
+  animation-name: scrolling;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  bottom: 0px;
+  bottom: -250px;
+  right: 0px;
+  left: 0px;
+  position: absolute;
+  overflow: hidden;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scrolling {
+    from {bottom: 0px;}
+    to {bottom: -200px;}
+  }
+  
+  /* Standard syntax */
+  @keyframes scrolling {
+    from {bottom: 0px;}
+    to {bottom: -200px;}
+  }
+
+
+.skill-points p {
+    background-color: blue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+hr {
+    z-index: 5;
+}
+
+/* The animation code */
+@keyframes example {
+    0%   {top: 100%;}
+    100% {top : 20%}
+  }
+
+  @keyframes bringskills {
+    0%   {top: 100%;}
+    100% {top : 0%}
+  }
+
+  @keyframes bringabout {
+    0%   {top: 100%;}
+    100% {top : 0%}
+  }

@@ -1,0 +1,127 @@
+/*--- Fixed Landing Page Section --*/
+.landing {
+    opacity: 0.5;
+    position: relative;
+    width: 90%;
+    height: 100vh; /*height 100vh and width 100*/
+    display: table;
+    z-index: -1;
+  }
+  .home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .home-inner {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+
+  /* Content Boxes */
+.caption {
+  margin-left: 20px;
+  opacity: 1;
+  background-color: green;
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 10%;
+  color: white;
+}
+
+.caption ul {
+  display: flex;
+  list-style: none;
+  border-right: solid white 2px;
+}
+
+@media screen and (max-width: 700px) {
+  .caption ul {
+    flex-wrap: wrap;
+  }
+  .caption {
+    color: blue;
+  }
+}
+
+
+.caption li {
+  border : solid 2px white;
+  padding: 10px;
+  border-right: none;
+}
+
+h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 3.8rem;
+  color: white;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  transition: 0.2s;
+  text-transform: uppercase;
+}
+
+h4:hover {
+  cursor: pointer;
+  animation-name: growLetters;
+  animation-duration: 0.5s;
+}
+
+@keyframes growLetters {
+  0%   {font-size: 3.8rem;}
+  50% {font-size: 4.0rem;}
+  100% {font-size: 3.8rem;}
+}
+
+
+
+.test-section {
+  background-color: green;
+  width: 70%;
+  height: 60%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.test-section h1{
+  color: white;
+}
+
+.test-section p {
+   color: white;
+   font-size: 20px;
+   text-align: left;
+   padding: 20px;
+}
+
+.test-section ul {
+  
+}
+
+.test-section li{
+  text-align: left;
+  color: white;
+  font-size: 20px;
+}
+.test-section h2 {
+  color: white;
+}

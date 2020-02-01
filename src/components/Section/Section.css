@@ -1,0 +1,23 @@
+.section-box {
+    background-color: rgba(32, 160, 0, 0.06);
+    position: absolute;
+    right: 40px;
+    top: 30%;
+    width: 50%;
+    height: 50%;
+}
+
+.section-box p {
+}
+
+.section-box h1 {
+    opacity: 0.1;
+}
+.caption ul{
+    width: 100%;
+    text-align: center;
+}
+
+.caption li {
+    width: 100%;
+}

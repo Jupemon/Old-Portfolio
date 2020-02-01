@@ -1,0 +1,75 @@
+  /*TESINT */
+
+  * {
+    box-sizing: border-box;
+}
+
+.skill-carusel {
+    width: 100%;
+}
+
+body {
+    background: #121314;
+}
+
+.skill-logo {
+    height: 100px;
+    width: auto;
+}
+
+
+
+#c ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.skills-title {
+    width: 100%;
+    position: fixed;
+    bottom: 250px;
+}
+
+.skills-roster {
+    position: fixed;
+}
+
+.skills-title ul {
+    position: fixed;
+}
+
+#c li {
+    width: 25%;
+    list-style-type: none;
+    position: fixed;
+    bottom : 0% ;
+    padding: 0px;
+    height: 200px; 
+    opacity: 0;
+    text-align: center;
+    transition: 1s opacity; 
+}
+
+#c .active {
+    opacity: 1;
+}
+
+#c p {
+    font-size: 60px; 
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #646566;
+    line-height: 1.5em;
+}
+
+#c strong { 
+color: #fff;
+font-weight: 700;
+font-size: 60px; 
+line-height: 100px; 
+}
+
+#c p {
+    color: white;
+    font-size: 15px;
+}
